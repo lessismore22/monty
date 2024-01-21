@@ -55,5 +55,7 @@ void f_div(stack_t **head, unsigned int counter);
 void f_add(stack_t **head, unsigned int counter);
 void f_push(stack_t **head, unsigned int counter);
 void f_pall(stack_t **head, unsigned int counter);
-
+void f_pint(stack_t **head, unsigned int counter);
+void f_swap(stack_t **head, unsigned int counter);
+void f_pint(stack_t **head, unsigned int number);
 #endif
