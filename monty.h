@@ -51,7 +51,7 @@ typedef struct instruction_s
 	char *opcode;
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-void divfunct(stack_t **head, unsigned int counter);
-void addfunct(stack_t **head, unsigned int counter);
-void pushfunct(stack_t **head, unsigned int counter);
-void pallfunct(stack_t **head, unsigned int counter);
+void f_div(stack_t **head, unsigned int counter);
+void f_add(stack_t **head, unsigned int counter);
+void f_push(stack_t **head, unsigned int counter);
+void f_pall(stack_t **head, unsigned int counter);

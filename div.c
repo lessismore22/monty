@@ -6,7 +6,7 @@
  * @counter: line_number
  * Return: void
  */
-void divfunct(stack_t **head, unsigned int counter)
+void f_div(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int len = 0, aux;

@@ -5,7 +5,7 @@
  * @counter: number used
  * @Return: void
  */
-void pallfunct(stack_t **head, unsigned int counter)
+void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	(void)counter;
