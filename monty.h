@@ -53,3 +53,5 @@ typedef struct instruction_s
 } instruction_t;
 void divfunct(stack_t **head, unsigned int counter);
 void addfunct(stack_t **head, unsigned int counter);
+void pushfunct(stack_t **head, unsigned int counter);
+void pallfunct(stack_t **head, unsigned int counter);
