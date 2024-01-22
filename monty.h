@@ -58,4 +58,8 @@ void f_pall(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int number);
+void f_stack(stack_t **head, unsigned int counter);
+void addqueue(stack_t **head, int n);
+void free_stack(stack_t *head);
+void addnode(stack_t **head, int n);
 #endif
